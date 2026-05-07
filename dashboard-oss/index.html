@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM Usage Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-left">
+      <div class="header-logo">$</div>
+      <h1>LLM Usage Dashboard</h1>
+    </div>
+    <div class="header-right">
+      <span class="pulse-dot"></span>
+      <span id="last-refresh">Loading...</span>
+    </div>
+  </header>
+
+  <main class="main">
+    <h2 class="section-title">Token Usage</h2>
+    <p class="section-subtitle">Track costs and token usage across sessions — works with any LLM coding tool</p>
+
+    <div id="week-filter"></div>
+
+    <div class="card-grid" id="token-cards">
+      <div class="card"><div class="card-label">Loading...</div></div>
+    </div>
+
+    <h2 class="section-title" style="margin-top:32px">Model Breakdown</h2>
+    <div id="model-usage" class="panel">
+      <p class="muted">Loading model usage...</p>
+    </div>
+
+    <h2 class="section-title" style="margin-top:32px">Session History</h2>
+    <div id="sessions-table">
+      <p class="muted">Loading sessions...</p>
+    </div>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
