@@ -4,6 +4,8 @@ A lightweight, model-agnostic dashboard for tracking token usage and costs acros
 
 ![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue) ![No dependencies](https://img.shields.io/badge/dependencies-none-green) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
+![Dashboard Screenshot](screenshots/dashboard.png)
+
 ## Features
 
 - **Cost tracking** — total spend across sessions with week-by-week filtering
